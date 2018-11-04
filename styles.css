@@ -2,6 +2,8 @@
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
   background: #f1f1f1;
+  margin:0;
+  font-family:'Times New Roman', Times, serif
 }
 
 h1 {
@@ -12,11 +14,12 @@ h3 {
   font-size: 30px;
 }
 
+
 /* Giving our navbar some padding and a background color */
 .navbar {
   padding:0;
   margin:0;
-  background: #5191fd;
+  background:white;
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
@@ -26,15 +29,32 @@ h3 {
   margin-right: 0px;
   margin-left: 0px;
   cursor: pointer;
-  background: #fff;
-
+  /*background: #fff; */
 }
 
 /* Getting rid of the default link styles here */
 .navbar li a {
-  color: #000;
+  color: #000; 
+  text-align:center;
   text-decoration: none;
 }
+.lat-box {
+  color:white;
+  font-size:40px;
+  font-weight:bold;
+
+  background: #12cccc;
+}
+.menu-box {
+  margin-top: 20px;
+  font-size:20px;
+  color:#000;
+/*  background: #260fbf;*/
+}
+#plot-select{
+
+}
+
 
 /* Styling the header, giving it a height, a background color, and some top padding */
 .header {

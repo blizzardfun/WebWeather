@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>CSS Review</title>
+  <title>Web Weather</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!--  <link rel="stylesheet" href="reset.css">-->
   <link rel="stylesheet" href="styles.css">
@@ -13,25 +13,46 @@
 
   <div class="container">
     <nav class="navbar">
+      <div class="row">
       <ul>
-        <li>
-          <a href="#">Latitude</a>
-        </li>
-        <li>
-            <label for="plot-select">Plot:</label>
-            <select id="plot-select">
-                <option value="Max">Max Temperature</option>
-                <option value="about">Humidity</option>
-                <option value="portfolio">Cloudiness</option>
-                <option value="contact">Wind speed</option>
-            </select>
-        </li>
-        <li>
-          <a href="#">Comparison</a>
-        </li>
-        <li>
-          <a href="#">Data</a>
-        </li>
+        <div class="col-md-offset-1 col-md-2">
+          
+          <li>
+              <div class="lat-box" >
+            <a href="#">Latitude</a>
+          </div>
+          </li>
+
+        </div>
+        <div class="col-md-offset-4 col-md-2">
+          <div  class="menu-box" >
+            <li>
+            
+                <select id="plot-select" onchange="location= this.value">
+                    <option value="">Plot</option>
+
+                    <option value= "Resources/images/Fig1.png"> Max Temperature </a></option>
+                    <option value="Resources/images/Fig1.png">Humidity</option>
+                    <option value="portfolio">Cloudiness</option>
+                    <option value="contact">Wind speed</option>
+                </select>
+            </li>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div  class="menu-box" >
+            <li>
+              <a href="#">Comparison</a>
+            </li>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div  class="menu-box" >
+            <li>
+              <a href="#">Data</a>
+            </li>
+          </div>
+        </div>
       </ul>
       <select id="nav-select">
         <option value="home">Home</option>
@@ -40,6 +61,7 @@
         <option value="contact">Contact</option>
       </select>
       <div class="clearfix"></div>
+    </div>
     </nav>
     <header class="header">
       <h1>Welcome</h1>
