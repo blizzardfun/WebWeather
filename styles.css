@@ -1,9 +1,9 @@
 
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
-  background: #f1f1f1;
+  background: #f2f2f2;
   margin:0;
-  font-family:'Times New Roman', Times, serif
+  font-family:'Arial';
 }
 
 h1 {
@@ -15,7 +15,7 @@ h3 {
 }
 
 
-/* Giving our navbar some padding and a background color */
+/* Giving our navbar a background color */
 .navbar {
   padding:0;
   margin:0;
@@ -34,34 +34,41 @@ h3 {
 
 /* Getting rid of the default link styles here */
 .navbar li a {
-  color: #000; 
+ /* color: #000; */
   text-align:center;
   text-decoration: none;
 }
 .lat-box {
-  color:white;
-  font-size:40px;
-  font-weight:bold;
+  font-size:25px;
+  padding:5px;
   background: #12cccc;
 }
+.lat-box a {
+  color:white;
+  display:block;
+}
 .menu-box {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size:20px;
+
+}
+.menu-box a {
   color:#000;
+  padding:10px;
+  display:block;
 }
 /*  background: #260fbf;*/
 
 .dropbtn {
   background-color: white;
   color: black;
-/*  padding: 16px;
-  font-size: 16px;*/
+  padding: 10px;
   border: none;
   cursor: pointer;
 }
 
 .dropdown {
-  margin-top: 30px;
+  margin-top: 20px;
   font-size:20px;
   position: relative;
   display: inline-block;
@@ -83,33 +90,22 @@ h3 {
   display: block;
 }
 
+.lat-box-content a:hover {
+  background-color:#c9c9c9;
+  color:white;
+  display:block;
+}
+
+.navbar li a:hover {
+  background-color:#c9c9c9;
+  display:block;
+}
 .dropdown-content a:hover {background-color: #f2f2f2}
 
+.lat-box:hover ,.menu-box:hover,
 .dropdown:hover .dropdown-content { display: block;}
 
-.dropdown:hover .dropbtn {  background-color: #f2f2f2;}
-
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-  height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
-}
-
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 60px;
-  margin: 0;
-  color: #000;
-  text-align: center;
-}
-
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
+.dropdown:hover .dropbtn {  background-color: #c9c9c9;}
 
 #nav-select {
   visibility: hidden;
@@ -133,4 +129,37 @@ h3 {
   #nav-select {
     visibility: visible;
   }
+}
+
+/* Styling below the nav bar */
+.summary{
+  background-color:white;
+  margin:20px;
+}
+.overview {
+
+}
+
+
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: #cdcdcd;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+.header h1 {
+  padding: 60px;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+/* Giving the .post element margin on 3 sides */
+.post {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
 }

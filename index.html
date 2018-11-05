@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <title>Web Weather</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<!--  <link rel="stylesheet" href="reset.css">-->
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -19,13 +18,14 @@
           
           <li>
               <div class="lat-box" >
-            <a href="#">Latitude</a>
-          </div>
+                <div class="lat-box-content" >
+                  <a href="#">Latitude</a>
+                </div>
+              </div>
           </li>
 
         </div>
-        <div class="col-md-offset-4 col-md-2">
- <!--        <div  class="menu-box" >  --> 
+        <div class="col-md-offset-4 col-md-1">
             <li>
             
                 <div class="dropdown">
@@ -39,7 +39,7 @@
             </li>
 
         </div>
-        <div class="col-md-1">
+        <div class="col-md-2">
           <div  class="menu-box" >
             <li>
               <a href="#">Comparison</a>
@@ -63,11 +63,48 @@
       <div class="clearfix"></div>
     </div>
     </nav>
-    <header class="header">
-      <h1>Welcome</h1>
-    </header>
+   
     <main>
-      <section class="posts">
+      <section class="summary">
+        <div class="row">
+            <div class="col-md-8">
+
+                    <div class="overview"></div>
+
+
+                                <div class="thumbnail">
+                                  <div class="caption">
+                                    <h3>Summary: Latitude vs X</h3>
+                                  </div>
+                                  <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
+                                </div>
+                              </div>
+                              <div classc="col-md-8">
+                                <p>Using Python to access APIs and analyze the JSON data this project attempts to 
+                            prove what we think is the answer to the question, “What is the weather like as 
+                            we approach the equator?” It attempts to answer this general question in four 
+                            specific ways. The four ways it looks at the weather variation with respect to the 
+                            latitude are by temperature, humidity, cloudiness, and wind speed. 
+                                </p>
+                                <p>
+                              This analysis begins by selecting 500 unique cities chosen randomly by their 
+                              latitude. It then uses a series of API calls to OpenWeatherMap to retrieve weather 
+                              data for these cities. This data is then analyzed using Jupyter Notebook and plotted 
+                              using Pandas and Matplotlib. The results of this process are the data used in a 
+                              csv file and the four plots created from this data. These results are all available here.
+                                </p>  
+                    </div>
+
+            
+            </div>
+            <div class="col-md-4">
+              </div>
+        </div>
+
+
+
+
+
         <article class="post">
           <h3>Ut nulla exercitation ad eu et amet nisi dolor.</h3>
           <p>Nisi quis consectetur excepteur cillum dolor minim. Reprehenderit do qui veniam dolor in ea cupidatat eiusmod ad adipisicing nulla officia dolor sit. Anim fugiat eu enim in ex est deserunt laborum commodo incididunt consectetur consectetur.
