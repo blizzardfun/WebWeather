@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Web Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -47,7 +48,7 @@
         <div class="col-md-1 col-sm-12 col-xs-12">
           <div  class="menu-box" >
             <li>
-              <a href="#">Data</a>
+              <a href="cities-data.html">Data</a>
             </li>
           </div>
         </div>
@@ -75,19 +76,19 @@
                                                     <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
                                               </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-8">
+                                            <div class="col-md-4 col-sm-8 ">
                                                 <p>Using Python to access APIs and analyze the JSON data this project attempts to 
                                                   prove what we think is the answer to the question, “What is the weather like as 
                                                   we approach the equator?” It attempts to answer this general question in four 
-                                                  specific ways. The four ways it looks at the weather variation with respect to the 
-                                                  latitude are by temperature, humidity, cloudiness, and wind speed. 
+                                                  specific ways. It looks at the weather variation with respect to the 
+                                                  latitude in the measurement of temperature, humidity, cloudiness, and wind speed. 
                                                 </p>
                                                 <p>
                                                   This analysis begins by selecting 500 unique cities chosen randomly by their 
                                                   latitude. It then uses a series of API calls to OpenWeatherMap to retrieve weather 
                                                   data for these cities. This data is then analyzed using Jupyter Notebook and plotted 
-                                                  using Pandas and Matplotlib. The results of this process are the data used in a 
-                                                  csv file and the four plots created from this data. These results are all available here.
+                                                  using Pandas and Matplotlib. The results of this process are a csv file of the data used 
+                                                  and the four plots created from the data. These results are all available here.
                                                 </p>  
                                             </div>
                                     </div>

@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Web Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -47,7 +48,7 @@
         <div class="col-md-1 col-sm-12 col-xs-12">
           <div  class="menu-box" >
             <li>
-              <a href="#">Data</a>
+              <a href="cities-data.html">Data</a>
             </li>
           </div>
         </div>
@@ -69,17 +70,23 @@
                                       <h3 class="caption">Max Temperature</h3>
                                       <hr>
                                   <div class="container">
-                                    <div class="row">           <!-- boot strap row for summary box-->
+                                    <div class="row">           <!-- boot strap row for summary image-->
                                             <div class="col-md-6 col-sm-12">
-                                              <div class="thumbnail">   
+                                              <div class="thumbnail ">   
                                                     <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
                                               </div>
                                             </div>
-                                            <div class="col-md-7 col-sm-12">
+                                    </div>
+                                    <div class="row">            <!-- boot strap row for summary text-->
+                                            <div class="col-md-6 col-sm-12">
                                                 <p>This graph of temperature change with respect to latitude shows 
                                                   clearly what Minnesota snowbirds see anecdotally every winter. 
                                                   It is warmer closer to the equator. 
                                                 </p>
+                                                <p>It also shows that it is slightly warmer in the southern hemisphere 
+                                                  than in the northern.  In the autumn,when this data was collected, the 
+                                                  north pole of the Earth begins to tilted away from the sun.
+                                                  </p>
                                             </div>
                                     </div>
                                   </div>

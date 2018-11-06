@@ -137,8 +137,12 @@ h3 {
 
 /* Styling below the nav bar */
 
+.table-center{
+  margin-left:20px;
+  margin-right:20px;
+}
 .summary {
-margin-top:20px;
+margin-top:30px;
 
 } 
 .caption{
@@ -150,6 +154,9 @@ margin-top:20px;
 }
 .right-float{
   float:right;
+}
+.my-center {
+  text-align:center;
 }
 .box-border {
   border-style:solid;
