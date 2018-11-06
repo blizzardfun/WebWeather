@@ -3,7 +3,7 @@
 body {
   background: #f2f2f2;
   margin:0;
-  font-family:'Arial';
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -40,15 +40,17 @@ h3 {
 }
 .lat-box {
   font-size:25px;
-  padding:5px;
   background: #12cccc;
 }
 .lat-box a {
+  padding:7px;
+  margin-left:5px;
+  margin-right:5px;
   color:white;
   display:block;
 }
 .menu-box {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size:20px;
 
 }
@@ -68,7 +70,7 @@ h3 {
 }
 
 .dropdown {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size:20px;
   position: relative;
   display: inline-block;
@@ -90,7 +92,7 @@ h3 {
   display: block;
 }
 
-.lat-box-content a:hover {
+.lat-box-content:hover {
   background-color:#c9c9c9;
   color:white;
   display:block;
@@ -107,59 +109,50 @@ h3 {
 
 .dropdown:hover .dropbtn {  background-color: #c9c9c9;}
 
-#nav-select {
-  visibility: hidden;
+.large-visual {
+  display:inline;
+}
+.small-visual {
+  display:none;
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-@media (max-width: 480px) {
-  .navbar li {
-    padding: 10px;
+@media (max-width: 992px) {
+
+.large-visual {
+    display:none;
+  }
+.small-visual {
+   display:inline;
   }
 
-  .post {
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-
-  .navbar ul {
+  /* .navbar ul {
     visibility: hidden;
   }
 
-  #nav-select {
+.nav-select {
     visibility: visible;
-  }
-}
+  } */  
+} 
 
 /* Styling below the nav bar */
-.summary{
+
+.summary {
+margin-top:20px;
+
+} 
+.caption{
+  color:#12cccc;
+}
+.left-float{
+  float:left;
   background-color:white;
-  margin:20px;
 }
-.overview {
-
+.right-float{
+  float:right;
 }
-
-
-
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-  height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
-}
-
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 60px;
-  margin: 0;
-  color: #000;
-  text-align: center;
-}
-
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
+.box-border {
+  border-style:solid;
+  border-color:#12cccc;
+  border-width:2px;
 }

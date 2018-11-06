@@ -66,29 +66,23 @@
           <div class="row">
                           <div class="col-md-7  col-sm-12" style=background-color:white>
                               <div class="overview">
-                                      <h3 class="caption">Summary: Latitude vs. X</h3>
+                                      <h3 class="caption">Cloudiness</h3>
                                       <hr>
                                   <div class="container">
                                     <div class="row">           <!-- boot strap row for summary box-->
-                                            <div class="col-md-2 col-sm-4">
+                                            <div class="col-md-6 col-sm-12">
                                               <div class="thumbnail">   
-                                                    <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
+                                                    <img src="Resources/images/Fig3.png" alt="Cloudiness Plot">
                                               </div>
                                             </div>
-                                            <div class="col-md-4 col-sm-8">
-                                                <p>Using Python to access APIs and analyze the JSON data this project attempts to 
-                                                  prove what we think is the answer to the question, “What is the weather like as 
-                                                  we approach the equator?” It attempts to answer this general question in four 
-                                                  specific ways. The four ways it looks at the weather variation with respect to the 
-                                                  latitude are by temperature, humidity, cloudiness, and wind speed. 
+                                            <div class="col-md-7 col-sm-12">
+                                                <p>This graph of cloudiness with respect to latitude seems 
+                                                  to spread the cloudiness rather evenly.  There seem to be 
+                                                  horizontal lines on the graph which would indicate the 
+                                                  subjective nature of measuring the level of cloudiness, 
+                                                  but with respect to latitude there is no indication from the 
+                                                  data that there is a relationship. 
                                                 </p>
-                                                <p>
-                                                  This analysis begins by selecting 500 unique cities chosen randomly by their 
-                                                  latitude. It then uses a series of API calls to OpenWeatherMap to retrieve weather 
-                                                  data for these cities. This data is then analyzed using Jupyter Notebook and plotted 
-                                                  using Pandas and Matplotlib. The results of this process are the data used in a 
-                                                  csv file and the four plots created from this data. These results are all available here.
-                                                </p>  
                                             </div>
                                     </div>
                                   </div>
@@ -106,14 +100,14 @@
                                                 <div class="container">
                                                     <div class="row">
                                                             <div class="col-md-2  col-sm-3">
-                                                                    <div class="thumbnail left-float ">
+                                                                    <div class="thumbnail left-float">
                                                                       <a href="maxtemp.html">
-                                                                        <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
+                                                                        <img src="Resources/images/Fig1.png" alt="Max Temperature Plot" border:>
                                                                       </a>
                                                                     </div>
                                                             </div>
                                                             <div class="col-md-2 col-sm-3">         
-                                                                    <div class="thumbnail right-float">
+                                                                    <div class="thumbnail right-float ">
                                                                         <a href="humidity.html">
                                                                           <img src="Resources/images/Fig2.png" alt="Humidity Plot">
                                                                         </a>
@@ -122,7 +116,7 @@
                                                     </div>
                                                     <div class="row">
                                                               <div class="col-md-2  col-sm-3">
-                                                                  <div class="thumbnail left-float">
+                                                                  <div class="thumbnail left-float box-border">
                                                                       <a href="cloud.html">
                                                                         <img src="Resources/images/Fig3.png" alt="Cloudiness Plot">
                                                                       </a>
@@ -157,7 +151,7 @@
                                                                   </div>
                                                           </div>
                                                             <div class="  col-sm-3">
-                                                                <div class="thumbnail left-float">
+                                                                <div class="thumbnail left-float box-border">
                                                                     <a href="cloud.html">
                                                                       <img src="Resources/images/Fig3.png" alt="Cloudiness Plot">
                                                                     </a>
