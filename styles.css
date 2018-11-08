@@ -41,23 +41,36 @@ h3 {
 .lat-box {
   font-size:25px;
   background: #12cccc;
+  width:130px;
+  cursor: pointer;
 }
 .lat-box a {
   padding:7px;
   margin-left:5px;
   margin-right:5px;
   color:white;
+  text-decoration: none;
   display:block;
 }
 .menu-box {
   margin-top: 0px;
   font-size:20px;
-
+  border: none;
+  text-align:left;
+  width:120px;
+  cursor: pointer;
 }
+
 .menu-box a {
   color:#000;
   padding:10px;
   display:block;
+  border: none;
+  font-size:20px;
+  text-decoration: none;
+  text-align:left;
+  position: relative;
+  display: inline-block;
 }
 /*  background: #260fbf;*/
 
@@ -98,7 +111,7 @@ h3 {
   display:block;
 }
 
-.navbar li a:hover {
+.menu-box a:hover {
   background-color:#c9c9c9;
   display:block;
 }
@@ -157,6 +170,9 @@ margin-top:30px;
 }
 .my-center {
   text-align:center;
+}
+.number-data {
+  text-align: right;
 }
 .box-border {
   border-style:solid;

@@ -11,59 +11,46 @@
 
 <body>
 
-  <div class="container">
-    <nav class="navbar">                    <!-- bootstrap row for navigation menu-->
-      <div class="row" style= background-color:white>
-      <ul>
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <li>
-              <div class="lat-box" >
-                <div class="lat-box-content" >
-                  <a href="index.html">Latitude</a>
-                </div>
+    <div class="container">
+        <nav class="navbar">                    <!-- bootstrap row for navigation menu-->
+          <div class="row" style= background-color:white>
+              <div class="col-md-2 col-sm-12 col-xs-12">     <!--latitude box--> 
+                  <div class="lat-box lat-box-content" >
+                      <a href="index.html">Latitude</a>
+                  </div>
               </div>
-          </li>
-
-        </div>
-        <div class="col-md-offset-4 col-md-1 col-sm-12 col-xs-12">
-            <li>
-                <div class="dropdown">                             <!-- drop down menu for plot-->
-                    <button class="dropbtn">Plot</button>
-                    <div class="dropdown-content">
-                      <a href="maxtemp.html">Max Temperature</a>
-                      <a href="humidity.html">Humidity</a>
-                      <a href="cloud.html">Cloudiness</a>
-                      <a href="wind.html">Wind Speed</a>
+              <div class=" col-md-offset-5 col-md-1 col-sm-12 col-xs-12">          <!-- plot box w/ drop down-->
+                    <div class="dropdown">                           
+                        <button class="dropbtn ">Plot</button>
+                        <div class="dropdown-content">
+                          <a href="maxtemp.html">Max Temperature</a>
+                          <a href="humidity.html">Humidity</a>
+                          <a href="cloud.html">Cloudiness</a>
+                          <a href="wind.html">Wind Speed</a>
+                        </div>
                     </div>
-                </div>
-            </li>
-        </div>
-        <div class="col-md-2 col-sm-12 col-xs-12" >
-          <div  class="menu-box" >
-            <li>
-              <a href="compare.html">Comparison</a>
-            </li>
+                  </div>
+    
+            <div class="col-md-2 col-sm-12 col-xs-12" >
+                    <div  class="menu-box" >
+                        <a href="compare.html">Comparison</a>
+                    </div>
+            </div>
+    
+            <div class="col-md-1 col-sm-12 col-xs-12"> 
+                    <div  class="menu-box" >
+                        <a href="cities-data.html">Data</a>
+                    </div>
+            </div>
+    
           </div>
-        </div>
-        <div class="col-md-1 col-sm-12 col-xs-12">
-          <div  class="menu-box" >
-            <li>
-              <a href="cities-data.html">Data</a>
-            </li>
-          </div>
-        </div>
-        </ul>
-      </div>
-    </nav>
-
-   
-  </div>
+        </nav> 
+    </div>
 
    
     <main>
-      <section class="summary">
-         
-        <div class="container"style=background-color:white>  <!-- bootstrap row for heading-->
+      <section class="summary">      
+        <div class="container" style=background-color:white>  <!-- bootstrap row for heading-->
           <div class="row">
                   <div class="col-md-12  col-sm-12" >
                           <h3 class="caption">Comparison: Latitude vs. X</h3>

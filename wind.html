@@ -11,58 +11,45 @@
 
 <body>
 
-  <div class="container">
-    <nav class="navbar">                    <!-- bootstrap row for navigation menu-->
-      <div class="row" style= background-color:white>
-      <ul>
-        <div class="col-md-4 col-sm-12 col-xs-12">
-          <li>
-              <div class="lat-box" >
-                <div class="lat-box-content" >
-                  <a href="index.html">Latitude</a>
-                </div>
+
+    <div class="container">
+        <nav class="navbar">                    <!-- bootstrap row for navigation menu-->
+          <div class="row" style= background-color:white>
+              <div class="col-md-2 col-sm-12 col-xs-12">     <!--latitude box--> 
+                  <div class="lat-box lat-box-content" >
+                      <a href="index.html">Latitude</a>
+                  </div>
               </div>
-          </li>
-
-        </div>
-        <div class="col-md-offset-4 col-md-1 col-sm-12 col-xs-12">
-            <li>
-                <div class="dropdown">                             <!-- drop down menu for plot-->
-                    <button class="dropbtn">Plot</button>
-                    <div class="dropdown-content">
-                      <a href="maxtemp.html">Max Temperature</a>
-                      <a href="humidity.html">Humidity</a>
-                      <a href="cloud.html">Cloudiness</a>
-                      <a href="wind.html">Wind Speed</a>
+              <div class=" col-md-offset-5 col-md-1 col-sm-12 col-xs-12">          <!-- plot box w/ drop down-->
+                    <div class="dropdown">                           
+                        <button class="dropbtn ">Plot</button>
+                        <div class="dropdown-content">
+                          <a href="maxtemp.html">Max Temperature</a>
+                          <a href="humidity.html">Humidity</a>
+                          <a href="cloud.html">Cloudiness</a>
+                          <a href="wind.html">Wind Speed</a>
+                        </div>
                     </div>
-                </div>
-            </li>
-        </div>
-        <div class="col-md-2 col-sm-12 col-xs-12" >
-          <div  class="menu-box" >
-            <li>
-              <a href="compare.html">Comparison</a>
-            </li>
+                  </div>
+    
+            <div class="col-md-2 col-sm-12 col-xs-12" >
+                    <div  class="menu-box" >
+                        <a href="compare.html">Comparison</a>
+                    </div>
+            </div>
+    
+            <div class="col-md-1 col-sm-12 col-xs-12"> 
+                    <div  class="menu-box" >
+                        <a href="cities-data.html">Data</a>
+                    </div>
+            </div>
+    
           </div>
-        </div>
-        <div class="col-md-1 col-sm-12 col-xs-12">
-          <div  class="menu-box" >
-            <li>
-              <a href="cities-data.html">Data</a>
-            </li>
-          </div>
-        </div>
-        </ul>
-      </div>
-    </nav>
-
-   
-  </div>
-
+        </nav> 
+    </div>
    
     <main>
-      <section class="summary">
-         
+      <section class="summary">       
         <div class="container">  <!-- bootstrap row for content-->
           <div class="row">
                           <div class="col-md-7  col-sm-12" style=background-color:white>
@@ -103,7 +90,7 @@
                                                             <div class="col-md-2  col-sm-3">
                                                                     <div class="thumbnail left-float">
                                                                       <a href="maxtemp.html">
-                                                                        <img src="Resources/images/Fig1.png" alt="Max Temperature Plot" border:>
+                                                                        <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
                                                                       </a>
                                                                     </div>
                                                             </div>
@@ -138,28 +125,28 @@
                                               <div class="container">
                                                   <div class="row">
                                                           <div class="  col-sm-3">
-                                                                  <div class="thumbnail left-float">
+                                                                  <div class="thumbnail">
                                                                     <a href="maxtemp.html">
                                                                       <img src="Resources/images/Fig1.png" alt="Max Temperature Plot">
                                                                     </a>
                                                                   </div>
                                                           </div>
                                                           <div class=" col-sm-3">         
-                                                                  <div class="thumbnail right-float ">
+                                                                  <div class="thumbnail">
                                                                       <a href="humidity.html">
                                                                         <img src="Resources/images/Fig2.png" alt="Humidity Plot">
                                                                       </a>
                                                                   </div>
                                                           </div>
                                                             <div class="  col-sm-3">
-                                                                <div class="thumbnail left-float">
+                                                                <div class="thumbnail">
                                                                     <a href="cloud.html">
                                                                       <img src="Resources/images/Fig3.png" alt="Cloudiness Plot">
                                                                     </a>
                                                                 </div>
                                                             </div>
                                                             <div class=" col-sm-3">
-                                                                <div class="thumbnail right-float box-border">
+                                                                <div class="thumbnail box-border">
                                                                     <a href="wind.html">
                                                                       <img src="Resources/images/Fig4.png" alt="Wind SpeedPlot">
                                                                     </a>
@@ -174,7 +161,7 @@
         </div>
       </section>
     </main>
-  </div>
+
 
 </body>
 
