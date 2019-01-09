@@ -13,4 +13,4 @@ It uses Python Citipy and the OpenWeatherMap API for data which is then plotted 
 
 * NOTE:To retrieve new data, use the WeatherPy.ipynb Jupyter notebook. You will need api keys from OpenWeatherMap in a config.py file. View the results by rendering index.html in your browser.
 
-You can see this application deployed at https://blizzardfun.github.io/WebWeather/
+You can see visualization deployed at https://blizzardfun.github.io/WebWeather/
