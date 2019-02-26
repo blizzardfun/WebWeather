@@ -20,6 +20,6 @@ Temperature Plot
  ![compare plots](compare.png)
 
  The data table
- ![data table](datA.PNG)
+ ![data table](data.png)
 
 * NOTE:To retrieve new data, use the WeatherPy.ipynb Jupyter notebook. You will need api keys from OpenWeatherMap in a config.py file. View the results by rendering index.html in your browser.
