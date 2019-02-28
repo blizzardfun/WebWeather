@@ -14,12 +14,14 @@ It uses Python Citipy and the OpenWeatherMap API for data which is then plotted 
 
 Temperature Plot
 
-![temp plot](temp.png)
+![temp plot](Resources/images/temp.png)
  
  Comparison of four plots
- ![compare plots](compare.png)
+
+ ![compare plots](Resources/images/compare.png)
 
  The data table
- ![data table](data.png)
+ 
+ ![data table](Resources/images/data.png)
 
 * NOTE:To retrieve new data, use the WeatherPy.ipynb Jupyter notebook. You will need api keys from OpenWeatherMap in a config.py file. View the results by rendering index.html in your browser.
