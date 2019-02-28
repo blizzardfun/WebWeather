@@ -1,7 +1,5 @@
 # WebWeather
-Website to share visualized weather data from openweathermap api including graphs and data described below. 
-
-Using Python to access APIs and analyze the JSON data this project attempts to prove what we think is the answer to the question, “What is the weather like as we approach the equator?” It attempts to answer this general question in four specific ways. It looks at the weather variation with respect to the latitude in the measurement of temperature, humidity, cloudiness, and wind speed. 
+The goal of this project is prove what we think is the answer to the question, “What is the weather like as we approach the equator?” It attempts to answer this general question in four specific ways. It looks at the weather variation with respect to the latitude in the measurement of temperature, humidity, cloudiness, and wind speed. It uses Python to access the OpenWeatherMap API and transform the JSON response and visualizes the results with Matplotlib.
                                                 
 This analysis begins in the Jupyter Notebook which will retrieve the weather of 500+ cities across the world at varying distances from the equator. Cities are chosen randomly by longitude and latitude. Current weather is used for data. Using scatter plots it will show the following relationships
 * 1-Temperature (F) vs. Latitude
