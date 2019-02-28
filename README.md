@@ -10,7 +10,9 @@ This analysis begins in the Jupyter Notebook which will retrieve the weather of 
 * 4-Wind Speed (mph) vs. Latitude
  
 
-It uses Python Citipy and the OpenWeatherMap API for data which is then plotted using Pandas and Matplotlib. The results of this process are a csv file of the data used and the four plots created from the data. These results are all available [here](https://blizzardfun.github.io/WebWeather/).
+It uses Python Citipy and the OpenWeatherMap API for data which is then plotted using Pandas and Matplotlib. The results of this process are a csv file of the data used and the four plots created from the data. 
+
+These are deployed and available [here](https://blizzardfun.github.io/WebWeather/).
 
 Temperature Plot
 
